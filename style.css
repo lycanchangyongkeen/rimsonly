@@ -1,0 +1,124 @@
+/************************* header ******************************/
+.header-text{
+  position: absolute;
+  left: 50%;
+  margin-left: -95px;
+  top: 45%;
+  margin-top: -50px;
+  z-index: 1;
+}
+.header-carousel{
+  padding: 0;
+}
+.header-img {
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+}
+
+/************************* short info ******************************/
+.short-info{
+  text-align: center;
+  width: 80%;
+  margin: 25px auto;
+}
+
+.info-text{
+  margin-top: 15px;
+}
+
+.info-text{
+  margin-bottom: 50px;
+}
+
+/************************* Branding ******************************/
+.Branding{
+width: 80%;
+margin: 0 auto;
+}
+.Branding-text{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.brand-card{
+  text-align: center;
+}
+
+.brand-top-card{
+  height: 300px;
+}
+
+.brand-top{
+  height: 200px;
+}
+.row{
+  margin-bottom: 20px;
+}
+
+/************************* steps ******************************/
+.steps{
+  background-color: #eeeeee;
+}
+.step-text{
+  text-align: center;
+  margin: 80px auto 20px auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.step-row{
+  padding-left: 10%;
+  padding-bottom: 100px;
+}
+.arrow{
+  position: relative;
+  top: 20%;
+}
+
+/********************reviw***************************************/
+.review-size{
+  height: 200px;
+  text-align: center;
+  margin: 5% auto;
+  width: 80%;
+}
+
+.review-text{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.ppl-review{
+  margin-top: 40px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+/************************* footer **********************************/
+.btm-footer{
+  background-color: #eeeeee;
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 60px;
+}
